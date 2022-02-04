@@ -1,0 +1,33 @@
+:root {
+  /* GLOBAL COLOR SCHEME */
+  --cs-purple: #861657;
+  --cs-light-purple: #AA4465;
+  --cs-faded-pink: #FFA69E;
+  --cs-light-blue: #93E1D8;
+  --cs-light-cyan: #DDFFF7;
+  /* GLOBAL FONT FAMILY */
+  --f-poppins: 'Poppins', sans-serif;
+  --f-roboto: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: var(--f-poppins);
+}
+
+p {
+  font-family: var(--f-roboto);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
