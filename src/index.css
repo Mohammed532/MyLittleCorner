@@ -10,6 +10,10 @@
   --f-roboto: 'Roboto Condensed', sans-serif;
 }
 
+html {
+  background-color: var(--cs-light-cyan);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
